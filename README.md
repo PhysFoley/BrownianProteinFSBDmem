@@ -1,4 +1,4 @@
-# Membrane-Coupled Protein Lattice Simulations (HOOMD-blue)
+# Membrane-Coupled Protein Lattice Simulations
 
 This repository contains code for simulating flexible protein lattices (e.g. clathrin
 triskelia, or arbitrary rigid-body assemblies output by [NERDSS](https://github.com/JohnsonBiophysicsLab/NERDSS))
@@ -175,7 +175,7 @@ initial state).
 
 The `examples/` directory contains one ready-to-run parameter file for each driver
 script (and, for `run_arbitrary_geom.py`, matching `com_coords_file` /
-`rot_vectors_file` inputs; for `run_nerdss_config.py`, a preprocessed complex JSON
+`rot_vectors_file` inputs; for `run_nerdss_config.py`, a NERDSS complexes JSON
 and its associated `.mol` files).
 
 ## Notes on reproducibility
