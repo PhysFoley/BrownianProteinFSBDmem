@@ -1,0 +1,14 @@
+{
+    "jobname": "open_cap_kappa20_k3040",
+    "timestep": 0.005,
+    "total_sim_time": 1000.0,
+    "clat_out_inter": 1000,
+    "mem_out_inter": 1000, 
+    "kr": 500.0,
+    "ktheta": 3040.0,
+    "komega": 500.0,
+    "pucker_angle": 107.5,
+    "kappa": 20.0,
+    "com_coords_file": "open_cap_coords.json",
+    "rot_vectors_file": "open_cap_rotvecs.json"
+}
