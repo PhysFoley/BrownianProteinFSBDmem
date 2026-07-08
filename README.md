@@ -9,9 +9,13 @@ Rev. Lett.* (2004). Protein degrees of freedom are simulated as rigid bodies in
 [HOOMD-blue](https://hoomd-blue.readthedocs.io/) and coupled to the membrane through
 harmonic tether bonds between designated particles and the local membrane height.
 
-See the comments in `default_params` at the top of each driver script for a description of every configurable parameter.
+## Citation
+
+If you use this code, please cite [our paper!](https://doi.org/10.48550/arXiv.2607.06378)
 
 ## Contents
+
+See the comments in `default_params` at the top of each driver script for a description of every configurable parameter.
 
 | File | Purpose |
 |---|---|
@@ -187,7 +191,3 @@ and its associated `.mol` files).
   repeated runs of the same parameter file are not bitwise-reproducible unless the
   seed is fixed manually.
 - The membrane lattice size `mem_N` must be odd (enforced by `Membrane.__init__`).
-
-## Citation
-
-If you use this code, please cite (arXiv link forthcoming).
