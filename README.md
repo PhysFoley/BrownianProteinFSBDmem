@@ -39,7 +39,7 @@ Derived units follow from these choices (e.g. mass ≈ 2.578 MDa).
 ## Requirements
 
 - Python 3.10+ (uses PEP 701 f-string/dict syntax in the driver scripts)
-- [HOOMD-blue](https://hoomd-blue.readthedocs.io/) (with `hoomd.md`, rigid-body constraints, and CPU device support)
+- [HOOMD-blue](https://hoomd-blue.readthedocs.io/) (NOTE: Only tested on version 4.8.2) with `hoomd.md`, rigid-body constraints, and CPU device support
 - [gsd](https://gsd.readthedocs.io/)
 - NumPy, SciPy
 
